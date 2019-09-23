@@ -1,0 +1,60 @@
+* LIB UTILIZADA - - OPCAO - SUCESSO
+ - npm install react-native-bluetooth-serial-next --save
+- LINK: https://github.com/nuttawutmalee/react-native-bluetooth-serial-next
+- https://react-native-training.github.io/react-native-elements/docs/getting_started.html
+- npm i --save react-native-vector-icons
+- https://reactnavigation.org/docs/en/getting-started.html
+- https://www.npmjs.com/package/react-navigation-stack
+
+- OBS:
+	- ABRIR C:\Users\User\Desktop\Apptools\M2%20APP%20TOOLS\blueApp\android\app
+	- ADICIONAR O ARQUIVO debug.keystore
+	- SICRONIZAR NOVAMENTE NO A.STUDIO.
+
+***********************************************************************************
+DADOS RECUPERADOS
+[ 
+	{ 
+		class: 7936,
+    		address: '98:D3:32:30:96:36',
+   		id: '98:D3:32:30:96:36',
+  		name: 'VIRTEC_VL6_20F73983',
+    		paired: true,
+     		connected: false 
+	} 
+]
+
+- COMANDO ENVIADO TESTE
+  QTT;ID=xxxx;#8001;*4E
+- RESPOSTA DE ENVIO
+  RTT200919151208-0377534-03847553000000700DF0000 04161624 000 11850000018104131346;ID=3876;#8001;*55<
+
+***********************************************************************************
+
+23-09-19
+*PASSOS PARA EXECUTAR O PROJETO - ATUALIZADO*
+- CRIAR UMA PASTA E NAVEGAR ATE A MESMA USANDO LINHA DE COMANDO - CMD;
+- RODAR: git clone https://leandroabidias0443@dev.azure.com/leandroabidias0443/M2%20APP%20TOOLS/_git/M2%20APP%20TOOLS
+- NAVEGAR ATE O PROJETO C:\Users\User\Desktop\Leandro-Mobs2\M2%20APP%20TOOLS\blueApp>
+- NPM INSTALL
+- REACT-NATIVE LINK
+- ABRIR PROJETO A PASTA 'ANDROID' DO PROJETO NO ANDROID STUDIO C:\Users\User\Desktop\Leandro-Mobs2\M2%20APP%20TOOLS\blueApp\android
+- NO VISUAL STUDIO IR ATE A PASTA NODE_MODULES(C:\Users\User\Desktop\bluClassic\node_modules\react-native-bluetooth-serial-next\android)
+- ABRIR ARQUIVO : gradle.properties comentar (android.useDeprecatedNdk=true)
+- COLAR ARQUIVO DEBUG.KEYSTORE NO C:\Users\User\Desktop\Apptools\M2%20APP%20TOOLS\blueApp\android\app
+- SICRONIZAR PROJETO NOVAMENTE NO ANDROID STUDIO
+- CONECTAR SEU CELULAR VIA USB NO PC
+- VIA LINHA DE COMANDO RODAR 'ADB DEVICES' PARA RECONHECIMENTO DO DISPOSITIVO
+- PARA ANDROID RODAR 'REACT-NATIVE RUN-ANDROID'
+- PARA IOSRODAR 'REACT-NATIVE RUN-IOS
+
+********************************************************************************************
+
+*******OBSERVACAO*******
+- CASO NAO NAO CONSIGA BUILDAR O PROJETO, INSISTA EM RODAR 'REACT-NATIVE RUN-ANDROID'.
+
+********************************************************************************************
+
+* VER LOG NO CONSOLE 
+- ABRIR OUTRO CMD E RODAR adb logcat -s -v time ReactNative:V,ReactNativeJS:V,System.err:W,logs:V
+- adb logcat -s -v time ReactNative:V,ReactNativeJS:V,System.err:W,logs:V
