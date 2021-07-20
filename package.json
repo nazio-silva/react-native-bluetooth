@@ -10,7 +10,7 @@
   "dependencies": {
     "install-local": "^1.0.0",
     "react": "16.8.6",
-    "react-native": "0.60.5",
+    "react-native": "0.62.3",
     "react-native-bluetooth-serial-next": "^1.2.3"
   },
   "devDependencies": {
